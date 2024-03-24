@@ -1,11 +1,9 @@
-
-
 //---rename unsigned short and long---
 typedef unsigned short u16;
 typedef unsigned long  u32; 
 //---Video buffer---
 u16    *VRAM; 
-#define VRAM_F         (u16*)0x6000000 
+#define VRAM_F         (u16*)0x6000000
 #define VRAM_B         (u16*)0x600A000
 #define DISPCNT        *(u32*)0x4000000
 #define BACKB   	   0x10 
